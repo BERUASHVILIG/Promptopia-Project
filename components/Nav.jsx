@@ -88,11 +88,11 @@ const Nav = () => {
                   My Profile
                 </Link>
                 <Link
-                  href=".create-prompt"
+                  href="/create-prompt"
                   className="dropdown_link"
                   onClick={() => setToggleDropdown(false)}
                 >
-                  Crete Prompt
+                  Create Prompt
                 </Link>
                 <button
                   type="button"
